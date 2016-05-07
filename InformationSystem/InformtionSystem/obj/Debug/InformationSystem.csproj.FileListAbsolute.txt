@@ -1,0 +1,10 @@
+C:\InformtionSystem\InformtionSystem\bin\InformtionSystem.dll
+C:\InformtionSystem\InformtionSystem\bin\InformtionSystem.pdb
+C:\InformtionSystem\InformtionSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\InformtionSystem\InformtionSystem\obj\Debug\InformtionSystem.dll
+C:\InformtionSystem\InformtionSystem\obj\Debug\InformtionSystem.pdb
+C:\Users\KALPESH\Documents\Visual Studio 2012\Projects\InformationSystem\InformtionSystem\bin\InformtionSystem.dll
+C:\Users\KALPESH\Documents\Visual Studio 2012\Projects\InformationSystem\InformtionSystem\bin\InformtionSystem.pdb
+C:\Users\KALPESH\Documents\Visual Studio 2012\Projects\InformationSystem\InformtionSystem\obj\Debug\InformationSystem.csprojResolveAssemblyReference.cache
+C:\Users\KALPESH\Documents\Visual Studio 2012\Projects\InformationSystem\InformtionSystem\obj\Debug\InformtionSystem.dll
+C:\Users\KALPESH\Documents\Visual Studio 2012\Projects\InformationSystem\InformtionSystem\obj\Debug\InformtionSystem.pdb

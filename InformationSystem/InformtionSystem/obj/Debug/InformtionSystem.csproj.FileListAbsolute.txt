@@ -1,0 +1,20 @@
+c:\users\kalpeshs\documents\visual studio 2010\Projects\InformtionSystem\InformtionSystem\bin\InformtionSystem.dll
+c:\users\kalpeshs\documents\visual studio 2010\Projects\InformtionSystem\InformtionSystem\bin\InformtionSystem.pdb
+c:\users\kalpeshs\documents\visual studio 2010\Projects\InformtionSystem\InformtionSystem\obj\Debug\ResolveAssemblyReference.cache
+c:\users\kalpeshs\documents\visual studio 2010\Projects\InformtionSystem\InformtionSystem\obj\Debug\InformtionSystem.dll
+c:\users\kalpeshs\documents\visual studio 2010\Projects\InformtionSystem\InformtionSystem\obj\Debug\InformtionSystem.pdb
+C:\Users\sohan\Desktop\InformtionSystem\InformtionSystem\bin\InformtionSystem.dll
+C:\Users\sohan\Desktop\InformtionSystem\InformtionSystem\bin\InformtionSystem.pdb
+C:\Users\sohan\Desktop\InformtionSystem\InformtionSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sohan\Desktop\InformtionSystem\InformtionSystem\obj\Debug\InformtionSystem.dll
+C:\Users\sohan\Desktop\InformtionSystem\InformtionSystem\obj\Debug\InformtionSystem.pdb
+C:\Users\kalpeshs\Desktop\Information System\InformtionSystem\InformtionSystem\bin\InformtionSystem.dll
+C:\Users\kalpeshs\Desktop\Information System\InformtionSystem\InformtionSystem\bin\InformtionSystem.pdb
+C:\Users\kalpeshs\Desktop\Information System\InformtionSystem\InformtionSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kalpeshs\Desktop\Information System\InformtionSystem\InformtionSystem\obj\Debug\InformtionSystem.dll
+C:\Users\kalpeshs\Desktop\Information System\InformtionSystem\InformtionSystem\obj\Debug\InformtionSystem.pdb
+C:\InformtionSystem\InformtionSystem\bin\InformtionSystem.dll
+C:\InformtionSystem\InformtionSystem\bin\InformtionSystem.pdb
+C:\InformtionSystem\InformtionSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\InformtionSystem\InformtionSystem\obj\Debug\InformtionSystem.dll
+C:\InformtionSystem\InformtionSystem\obj\Debug\InformtionSystem.pdb

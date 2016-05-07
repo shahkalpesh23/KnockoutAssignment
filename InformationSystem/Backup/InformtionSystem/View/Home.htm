@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>National Informatics Centre - NIC</title>
+    <link href="../Styles/bootstrap.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        body
+        {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+    </style>
+    <link href="../Styles/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="#">National Informatics Centre</a>
+                <div class="nav-collapse collapse">
+                    <div class="navbar-form pull-right">
+                        <input class="span2" type="text" placeholder="User Name" id="txtUserName" data-bind="visible: !IsAdmin" />
+                        <input class="span2" type="password" placeholder="Password" id="txtPassword" data-bind="visible: !IsAdmin" />
+                        <button type="submit" class="btn" id="btnLogon" data-bind="visible: !IsAdmin">
+                            Login</button>
+                        <button type="submit" class="btn" id="btnLogout" data-bind="visible: IsAdmin">
+                            LogOut</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hero-unit">
+            <h3 data-bind="text: Role">
+            </h3>
+            <p>
+                National Informatics Centre(NIC) is the premier organisation for in informatics
+                services and information-and-communication-technology (ICT). It has played a pivotal
+                role in processing analytical and current news and is in the network infrastructure
+                of the government.
+            </p>
+        </div>
+        <div class="row">
+            <div id="InfoDisplayDiv" class="span12">
+                <div class="pull-right" id="CategoryDrpDwn">
+                    <p>
+                        Select your news category :
+                    </p>
+                    <select data-bind="options: informationCategory, value: chosenCategory">
+                    </select>
+                </div>
+                <table align="center" data-bind="template:{name:'postNewsTemplate',foreach: postList}">
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="text/html" id="postNewsTemplate">
+        <tr data-bind="if: Show">
+            <td>
+                <div class="span11">
+                    <h1 data-bind="text: Title">
+                    </h1>
+                    <p data-bind="text: Description">
+                    </p>
+                    <div>
+                        <span class="badge badge-success" data-bind="text: PublishDate"></span>
+                        <p data-bind="if: $root.IsAdmin">Display this News : <input type="checkbox" id="chkEnabledDesabled" data-bind="checked: displayNews"/></p>
+                        <div class="pull-right">
+                           Category : <span class="label" data-bind="text: Categary"></span>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>    
+    </script>
+    <script src="../Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <script src="../Scripts/knockout-2.2.1.js" type="text/javascript"></script>
+    <script src="../Scripts/API/API.js" type="text/javascript"></script>
+    <script src="../Scripts/ViewModel/InformationViewModel.js" type="text/javascript"></script>
+    <script src="../Scripts/ViewModel/InformationSystem.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            LoadCompletePageData({}, function (newsData) {
+                if (newsData.d) {
+                    var vm = new LoadPostData(newsData.d, newsData.d.IsSessionValid);                    
+                    ko.applyBindings(vm);
+                }
+                Clear();
+            });
+        });   
+    </script>
+</body>
+</html>
